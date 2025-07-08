@@ -1,0 +1,105 @@
+.home {
+    text-align: center;
+
+}
+.hero {
+    background-color:#EEEFE0;
+    color:black;
+    padding: 50px 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin:40px 20px;
+    flex-wrap:wrap;
+    
+}
+.card {
+    background-color: aliceblue;
+    width:280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+
+}
+.card:hover {
+    transform: scale(1.03);
+   
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin:40px 20px;
+    flex-wrap:wrap;
+
+}
+.h1 {
+    width: 350px;
+    font-size: 20px;
+    
+}
+#logoMQ {
+    height: 400px;
+    width: 500px;
+}
+
+#logoMQ:hover{
+    transform:scale(1.15);
+    
+    
+}
+.main {
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap:20px;
+    margin:40px 20px;
+    flex-wrap:wrap; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin:60px 40px;
+    flex-wrap:wrap;
+
+}
+.left {
+    flex:1;
+    padding-right: 30px;
+    height: 30px;
+   
+}
+.left h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.main-illustration {
+    max-width: 100%;
+    height: auto;
+}
+    
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   
+}
+.a2  {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.a2 h2 {
+    font-size: 28px;
+    margin:0 0 6px;
+    color: green;
+}
+.a2 p{
+    font-size: 15px;
+    margin: 0;
+}
